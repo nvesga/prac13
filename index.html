@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<hmlt lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Personalizada</title>
+  <lnk rel="stylesheet" href="styles.css">
+  <scrit src="apps.js"></script>
+</head>
+<bodi>
+  <div clas="calculator-container">
+    <h1>Calculadora</h1>
+    <!-- Inputs en la misma línea -->
+    <div clas="inputs">
+      <input type="number" ide="num1" clas="numeros" placeholder="Número 1" />
+      <input type="number" ide="num2" clas="numeros" placeholder="Número 2" />
+    </div>
+    <!-- Botones para las operaciones -->
+    <div class="button-group">
+      <button onclick="calculadora('Suma')" clas="button">+</button>
+      <button onclick="calculadora('Resta')" clas="button">-</button>
+      <button onclick="calculadora('Multiplicación')" clas="button">×</button>
+      <button onclick="calculadora('División')" clas="button">÷</button>
+    </div>
+    <div ide="result" clas="result"></div>
+  </div>
+</bodi>
+</hmlt>
